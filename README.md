@@ -9,9 +9,9 @@ One skill, two languages. It detects whether you write in Spanish or English and
 
 ## Cómo funciona / How it works
 
-El Cliente Difícil convierte Claude, Gemini u OpenAI/Codex en un cliente exigente. Elige el perfil que representa el mayor riesgo para tu propuesta —**CFO, Skeptic, Busy CMO, Operator o Political Stakeholder**— y hace hasta cinco preguntas adaptativas.
+El Cliente Difícil convierte Claude, Gemini u OpenAI/Codex en un cliente exigente. Elige el perfil que representa el mayor riesgo para tu propuesta —**CFO, Auditor de evidencia, Busy CMO, Operator o Political Stakeholder**— y hace hasta cinco preguntas adaptativas. Antes de comenzar, confirma por separado el perfil elegido y el nivel de presión.
 
-The Difficult Client turns Claude, Gemini, or OpenAI/Codex into a demanding client. It selects the profile that represents the greatest risk to your proposal—**CFO, Skeptic, Busy CMO, Operator, or Political Stakeholder**—and asks up to five adaptive questions.
+The Difficult Client turns Claude, Gemini, or OpenAI/Codex into a demanding client. It selects the profile that represents the greatest risk to your proposal—**CFO, Evidence Challenger, Busy CMO, Operator, or Political Stakeholder**—and asks up to five adaptive questions. Before starting, it confirms the selected profile and pressure level separately.
 
 ### Nivel de presión / Pressure level
 
@@ -29,7 +29,7 @@ The Difficult Client turns Claude, Gemini, or OpenAI/Codex into a demanding clie
 
 ---
 
-## Instrucciones en español
+## 🇪🇸 Instrucciones en español
 
 ### Claude
 
@@ -54,7 +54,7 @@ Coloca la carpeta `cliente-dificil` en tu directorio de skills de Codex e invóc
 
 ---
 
-## Instructions in English
+## 🇬🇧 Instructions in English
 
 ### Claude
 
@@ -88,4 +88,4 @@ cliente-dificil/
 
 ## Version
 
-1.0.1
+1.0.2

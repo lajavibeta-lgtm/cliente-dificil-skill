@@ -4,7 +4,10 @@
 
 > Queremos que una marca de bebidas apruebe una campaña de $150K con cinco creadores de nicho y video corto para conectar con compradores jóvenes. La CMO teme que el engagement no se traduzca en ventas. Usa el modo 🟡 Skeptical.
 
-**Perfil seleccionado: Skeptic — el mayor riesgo es la relación no demostrada entre relevancia cultural y ventas.**
+**Perfil elegido:** Auditor de evidencia  
+**Nivel de presión:** 🟡 Skeptical
+
+_El mayor riesgo es la relación no demostrada entre relevancia cultural y ventas._
 
 **Pregunta 1:** ¿Por qué debería invertir los $150K aquí en vez de destinarlos a canales de performance que ya generan ventas medibles?
 
@@ -20,7 +23,10 @@ _La skill continuaría con un máximo de tres preguntas adaptativas y luego entr
 
 > We want a beverage client to approve a $150K creator-led campaign aimed at younger buyers. The idea uses five niche creators and short-form video to make the brand feel culturally relevant. The CMO worries that engagement will not translate into sales. Use 🟡 Skeptical mode.
 
-**Selected client profile: Skeptic — the approval risk is the unproven link between cultural relevance and sales.**
+**Selected profile:** Evidence Challenger  
+**Pressure level:** 🟡 Skeptical
+
+_The approval risk is the unproven link between cultural relevance and sales._
 
 **Question 1:** Why should I fund this instead of putting the same $150K into performance channels that already produce measurable sales?
 
