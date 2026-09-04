@@ -2,7 +2,7 @@
 
 ## Español
 
-> Queremos que una marca de bebidas apruebe una campaña de $150K con cinco creadores de nicho y video corto para conectar con compradores jóvenes. La CMO teme que el engagement no se traduzca en ventas. Usa el modo Skeptical.
+> Queremos que una marca de bebidas apruebe una campaña de $150K con cinco creadores de nicho y video corto para conectar con compradores jóvenes. La CMO teme que el engagement no se traduzca en ventas. Usa el modo 🟡 Skeptical.
 
 **Perfil seleccionado: Skeptic — el mayor riesgo es la relación no demostrada entre relevancia cultural y ventas.**
 
@@ -18,7 +18,7 @@ _La skill continuaría con un máximo de tres preguntas adaptativas y luego entr
 
 ## English
 
-> We want a beverage client to approve a $150K creator-led campaign aimed at younger buyers. The idea uses five niche creators and short-form video to make the brand feel culturally relevant. The CMO worries that engagement will not translate into sales. Use Skeptical mode.
+> We want a beverage client to approve a $150K creator-led campaign aimed at younger buyers. The idea uses five niche creators and short-form video to make the brand feel culturally relevant. The CMO worries that engagement will not translate into sales. Use 🟡 Skeptical mode.
 
 **Selected client profile: Skeptic — the approval risk is the unproven link between cultural relevance and sales.**
 
@@ -31,4 +31,3 @@ _La skill continuaría con un máximo de tres preguntas adaptativas y luego entr
 > We will use matched regional holdouts, creator-specific landing pages, brand-lift measurement, and an agreed cost-per-incremental-visit threshold.
 
 _The skill would continue with up to three adaptive questions and then deliver the verdict._
-

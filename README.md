@@ -3,74 +3,79 @@
 **Pon a prueba tu estrategia antes de presentársela al cliente.**  
 **Pressure-test your strategy before your client does.**
 
-Una skill bilingüe para equipos de agencia, estrategas, creativos, cuentas y consultores. Convierte Claude, Gemini u OpenAI/Codex en un cliente exigente que cuestiona una propuesta con un máximo de cinco preguntas y luego muestra qué está listo y qué necesita trabajo.
+Una sola skill, dos idiomas. Detecta si escribes en español o inglés y realiza toda la sesión en ese idioma. También puedes pedir el idioma explícitamente.
 
-A bilingual skill for agency teams, strategists, creatives, account leads, and consultants. It turns Claude, Gemini, or OpenAI/Codex into a demanding client who challenges a proposal with up to five questions, then shows what is ready and what still needs work.
+One skill, two languages. It detects whether you write in Spanish or English and runs the entire session in that language. You can also request a language explicitly.
 
-La skill detecta si escribes en español o inglés y realiza toda la sesión en ese idioma. También puedes pedir el idioma explícitamente.
+## Cómo funciona / How it works
 
-The skill detects whether you write in Spanish or English and runs the full session in that language. You can also request a language explicitly.
+El Cliente Difícil convierte Claude, Gemini u OpenAI/Codex en un cliente exigente. Elige el perfil que representa el mayor riesgo para tu propuesta —**CFO, Skeptic, Busy CMO, Operator o Political Stakeholder**— y hace hasta cinco preguntas adaptativas.
 
-## Qué hace / What it does
+The Difficult Client turns Claude, Gemini, or OpenAI/Codex into a demanding client. It selects the profile that represents the greatest risk to your proposal—**CFO, Skeptic, Busy CMO, Operator, or Political Stakeholder**—and asks up to five adaptive questions.
 
-- Elige el perfil más relevante / Chooses the most relevant profile: **CFO**, **Skeptic**, **Busy CMO**, **Operator** or **Political Stakeholder**
-- Usa tres niveles de presión / Uses three pressure levels: **Supportive**, **Skeptical** or **Brutal**
-- Hace hasta cinco preguntas, una por una / Asks up to five questions, one at a time
-- Adapta cada reto a tus respuestas / Adapts every challenge to your answers
-- Entrega un diagnóstico final / Delivers a final verdict:
-  - Lo que sobrevive / What survives
-  - Lo que el cliente cuestionará / Client will challenge
-  - Esto podría matar la propuesta / This could kill the proposal
-  - Un argumento más sólido / Stronger framing
-  - Nivel de preparación / Client Readiness Score
+### Nivel de presión / Pressure level
 
-Una sesión suele tomar 7–10 minutos. / A session usually takes 7–10 minutes.
+- 🟢 **Supportive** — constructivo y fácil de responder / constructive and easier to answer
+- 🟡 **Skeptical** — directo, exige lógica y evidencia / direct, requiring logic and evidence
+- 🔴 **Brutal** — máxima presión sobre afirmaciones débiles / maximum pressure on weak claims
 
-## Cómo usarla / How to use it
+### Diagnóstico final / Final verdict
+
+- 🟢 **Lo que sobrevive / What survives** — las partes más sólidas
+- 🟡 **Lo que el cliente cuestionará / Client will challenge** — objeciones que puedes preparar
+- 🔴 **Esto podría matar la propuesta / This could kill the proposal** — riesgos que pueden impedir la aprobación
+- 🛠️ **Un argumento más sólido / Stronger framing** — una mejor forma de presentar la idea
+- 📊 **Nivel de preparación / Client Readiness Score** — puntuación transparente de 0 a 100
+
+---
+
+## 🇪🇸 Instrucciones en español
 
 ### Claude
 
-Añade la carpeta `cliente-dificil` como Skill si tu entorno admite Skills. Si no, agrega `SKILL.md` a un Project o pega su contenido antes de tu propuesta.
+1. Descarga el ZIP desde la sección **Releases** de este repositorio.
+2. En Claude, activa **Ejecución de código y creación de archivos** desde **Configuración → Capacidades**.
+3. Ve a **Personalizar → Skills**.
+4. Selecciona **+ → Crear skill → Cargar una skill**.
+5. Sube el ZIP y activa **El Cliente Difícil**.
+6. Abre un chat, comparte tu propuesta y escribe:
 
-Add the `cliente-dificil` folder as a Skill if your environment supports Skills. Otherwise, add `SKILL.md` to a Project or paste its contents before your proposal.
+> Pon a prueba esta estrategia. El cliente debe aprobar el presupuesto y duda que la idea genere resultados de negocio. Usa el modo 🔴 Brutal.
 
-### OpenAI / Codex
-
-Coloca la carpeta `cliente-dificil` en tu directorio de skills de Codex e invócala por su nombre. También puedes adjuntar o pegar `SKILL.md` en una conversación de ChatGPT u OpenAI.
-
-Place the `cliente-dificil` folder in your Codex skills directory and invoke it by name. You can also attach or paste `SKILL.md` into a ChatGPT or OpenAI conversation.
+Si tu versión de la plataforma no permite cargar skills, pega el contenido de `SKILL.md` como instrucciones antes de compartir tu propuesta.
 
 ### Gemini
 
-Usa `SKILL.md` como las instrucciones de un Gem o pega el archivo en una conversación antes de tu propuesta.
+Usa `SKILL.md` como las instrucciones de un Gem o pégalo en una conversación antes de tu propuesta.
 
-Use `SKILL.md` as the instructions for a Gem, or paste the file into a Gemini conversation before your proposal.
+### OpenAI / Codex
 
-Los nombres de funciones y las opciones para importar archivos pueden variar. La alternativa universal es usar `SKILL.md` como instrucciones de la conversación.
+Coloca la carpeta `cliente-dificil` en tu directorio de skills de Codex e invócala por su nombre. También puedes adjuntar o pegar `SKILL.md` en una conversación.
 
-## Inicia una sesión / Start a session
+---
 
-**Español**
+## 🇬🇧 Instructions in English
 
-> Pon a prueba esta estrategia de campaña. El cliente debe aprobar un piloto de $150K. La principal stakeholder es una CMO adversa al riesgo que duda que la marca impulse ventas. Usa el modo Skeptical.
+### Claude
 
-**English**
+1. Download the ZIP from this repository's **Releases** section.
+2. In Claude, enable **Code execution and file creation** under **Settings → Capabilities**.
+3. Go to **Customize → Skills**.
+4. Select **+ → Create skill → Upload a skill**.
+5. Upload the ZIP and enable **The Difficult Client**.
+6. Open a chat, share your proposal, and write:
 
-> Stress-test this campaign strategy. The client needs to approve a $150K pilot. The main stakeholder is a risk-averse CMO who doubts that brand activity drives sales. Use Skeptical mode.
+> Pressure-test this strategy. The client must approve the budget and doubts that the idea will generate business results. Use 🔴 Brutal mode.
 
-Puedes adjuntar un deck, pegar una propuesta o describir la idea. Si omites el nivel de presión, la skill usa **Skeptical**.
+If your platform version does not support skill uploads, paste the contents of `SKILL.md` as instructions before sharing your proposal.
 
-You can attach a deck, paste a proposal, or describe the idea. If you omit the pressure level, the skill uses **Skeptical**.
+### Gemini
 
-Consulta [`example.md`](example.md) para ver un ejemplo bilingüe. / See [`example.md`](example.md) for a bilingual example.
+Use `SKILL.md` as the instructions for a Gem, or paste it into a conversation before your proposal.
 
-## Medición de descargas / Download measurement
+### OpenAI / Codex
 
-Descarga el ZIP desde la Release de GitHub. GitHub registra un `download_count` para cada asset, ofreciendo una señal simple y sin registro de la intención de descarga.
-
-Download the ZIP from the GitHub Release. GitHub records a `download_count` for every release asset, providing a simple, registration-free signal of download intent.
-
-El número mide descargas, no instalaciones ni sesiones completadas. / It measures downloads, not installations or completed sessions.
+Place the `cliente-dificil` folder in your Codex skills directory and invoke it by name. You can also attach or paste `SKILL.md` into a conversation.
 
 ## Contenido / Package contents
 
@@ -83,4 +88,4 @@ cliente-dificil/
 
 ## Version
 
-1.0.0
+1.0.1
