@@ -29,7 +29,7 @@ The Difficult Client turns Claude, Gemini, or OpenAI/Codex into a demanding clie
 
 ---
 
-## 🇪🇸 Instrucciones en español
+## Instrucciones en español
 
 ### Claude
 
@@ -54,7 +54,7 @@ Coloca la carpeta `cliente-dificil` en tu directorio de skills de Codex e invóc
 
 ---
 
-## 🇬🇧 Instructions in English
+## Instructions in English
 
 ### Claude
 
