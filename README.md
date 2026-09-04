@@ -83,7 +83,8 @@ Place the `cliente-dificil` folder in your Codex skills directory and invoke it 
 cliente-dificil/
 ├── SKILL.md
 ├── README.md
-└── example.md
+├── example.md
+└── LICENSE
 ```
 
 ## Version
